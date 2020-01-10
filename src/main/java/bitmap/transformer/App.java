@@ -5,7 +5,7 @@ package bitmap.transformer;
 
 public class App {
     public String getGreeting() {
-        return "Hello world.";
+        return "hello world!";
     }
 
     public static void main(String[] args) {
