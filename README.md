@@ -1,3 +1,3 @@
 # bitmap-transformer
 
-Teammate: Ashlyn Morin
+Teammate: Crystal Soo Lee
