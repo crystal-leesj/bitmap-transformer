@@ -4,7 +4,7 @@ Teammate: Crystal Soo Lee
 
 *Description*
 
-Build a bitmap (.bmp) transformer CLI that will read a bitmap from a disk. Run one or more color or raster transforms and then write it out to a new file. This project will require manipulating binary data. The solution should be composed of small tested methods that solve specific problems.
+Build a bitmap (.bmp) transformer CLI that will read a bitmap from a disk. Run one or more color or raster transforms and then write it out to a new file. This project will require manipulating binary data.
 
 *Methods*
 
