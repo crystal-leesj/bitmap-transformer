@@ -13,10 +13,10 @@ public class App {
 
     public static void main(String[] args) {
         // Find an image.
-        Path imagePath = FileSystems.getDefault().getPath("resources", "mario.bmp");
+        Path imagePathName = FileSystems.getDefault().getPath("resources", "mario.bmp");
 
         // Read the image.
-        Bitmap bmpDiagonally = new Bitmap(imagePath);
+        Bitmap bmpDiagonally = new Bitmap(imagePathName);
     }
 
     public static class Bitmap {
