@@ -3,16 +3,25 @@
  */
 package bitmap.transformer;
 
+import java.nio.file.FileSystems;
+import java.nio.file.Path;
+
 public class App {
     public String getGreeting() {
         return "hello world!";
     }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        // Find an image.
+        Path imagePath = FileSystems.getDefault().getPath("resources", "mario.bmp");
+
+        // Read the image.
+        Bitmap bmpDiagonally = new Bitmap(imagePath);
     }
 
-    public class Bitmap {
-        
+    public static class Bitmap {
+
+        public Bitmap(Path imagePath) {
+        }
     }
 }
